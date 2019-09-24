@@ -16,7 +16,7 @@ class ColorSet
 {
 public:
 	ColorSet();
-	ColorSet(int nMaxSize);
+	
 	virtual ~ColorSet();
 
 	//int GetMaxSize();

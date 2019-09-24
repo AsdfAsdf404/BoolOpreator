@@ -14,15 +14,14 @@ class VectorSet;
 
 class Bound
 {
-public:
-
+private:
 	double xMax;
 	double xMin;
 	double yMax;
 	double yMin;
 	double zMax;
 	double zMin;
-	
+public:
 	Bound(const Vector & p1, const Vector & p2, const Vector & p3);
 	Bound(VectorSet * vertices);
 	virtual ~Bound();

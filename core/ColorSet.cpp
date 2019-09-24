@@ -17,16 +17,6 @@ ColorSet::ColorSet()
 
 	//length = m_nSize;
 }
-
-ColorSet::ColorSet(int nMaxSize)
-{
-	//m_nMaxSize = nMaxSize;
-	//m_nSize = 0;
-	//m_pColors = new Color[m_nMaxSize];
-
-	//length = m_nSize;
-}
-
 ColorSet::~ColorSet()
 {
 	//delete [] m_pColors;

@@ -13,11 +13,10 @@
 
 class Line
 {
-public:
-
+private:
 	Vector point;
 	Vector direction;
-	
+public:
 	static double TOL;
 
 	Line();

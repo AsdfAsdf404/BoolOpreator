@@ -11,10 +11,10 @@
 class Vector
 {
 public:
-
 	double x;
 	double y;
 	double z;
+
 
 	Vector	();
 	Vector	(double xv, double yv, double zv);
